@@ -1,0 +1,19 @@
+{
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Sid": "VisualEditor0",
+            "Effect": "Allow",
+            "Action": [
+                "imagebuilder:ListDistributionConfigurations",
+                "imagebuilder:ListContainerRecipes",
+                "imagebuilder:ListInfrastructureConfigurations",
+                "imagebuilder:ListImagePipelines",
+                "imagebuilder:ListComponents",
+                "imagebuilder:ListImageRecipes",
+                "imagebuilder:ListImages"
+            ],
+            "Resource": "*"
+        }
+    ]
+}
